@@ -1,0 +1,31 @@
+.foCon{
+    justify-content: space-between;
+}
+
+/* Left */
+.foLeft{
+    gap: 2rem;
+}
+
+
+/* Right */
+.foList{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .foCon{
+        justify-content: center;
+    }
+    .foCon div{
+        align-items: center;
+        text-align: center;
+    }
+    .foList{
+        font-size: 0.8rem;
+        gap: 1rem;
+    }
+}

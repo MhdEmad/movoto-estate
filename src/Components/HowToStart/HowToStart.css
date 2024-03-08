@@ -1,0 +1,21 @@
+.howInCon{
+    gap: 1.5rem;
+    background: rgb(14, 23, 66);
+    padding: 2rem;
+    border-radius: 50px;
+    border: 5px solid rgb(198, 153, 49);
+    text-align: center;
+}
+.howInCon .primaryText{
+    color: white;
+    font-weight: 600;
+}
+.howInCon .secondaryText{
+    color: rgb(198, 153, 49);
+}
+.howInCon .button{
+    background: rgb(198, 153, 49);
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+}

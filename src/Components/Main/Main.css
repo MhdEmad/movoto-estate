@@ -1,0 +1,104 @@
+.mainWra{
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.mainCon{
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+/* Left Side */
+.mainLeft{
+    gap: 3rem;
+}
+.leftTitle{
+    position: relative;
+    z-index: 1;
+}
+.leftTitle h1{
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+.leftOrange{
+    height: 4rem;
+    width: 4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    right: 28%;
+    top: -10%;
+    z-index: -1;
+}
+.leftSearch{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.375);
+    padding: 0.1rem 0rem;
+    justify-content: space-between;
+    width: 100%;
+}
+.leftSearch input{
+    border: none;
+    outline: none;
+    margin-right: 150px;
+}
+.btn{
+    margin-right: 10px;
+}
+.numbers{
+    width: 100%;
+    justify-content: space-between;
+}
+.countUp :nth-child(1)
+{
+    font-size: 2rem;
+}
+.countUp :nth-child(1) :last-child
+{
+    color: orange;
+}
+
+/* Right Side */
+.mainImage{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 5rem 0rem 0rem 5rem;
+    border: 8px solid rgba(255, 255, 255, 0.12);
+}
+.mainImage img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 640px) {
+    .mainCon{
+        margin-top: 2rem;
+    }
+    .leftTitle h1{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .leftSearch input{
+        width: 120px;
+        height: 20px;
+        margin-right: 40px;
+    }
+    .mainImage{
+        width: 95%;
+        height: 25rem;
+        overflow: hidden;
+        border-radius: 5rem 5rem 5rem 5rem;
+        border: 8px solid rgba(255, 255, 255, 0.12);
+    }
+    .numbers{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .mainRight{
+        width: 100%;
+    }
+}

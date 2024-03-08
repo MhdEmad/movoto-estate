@@ -1,0 +1,15 @@
+.compCon{
+    justify-content: space-around;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.compCon img{
+    width: 10rem;
+}
+
+@media (max-width: 768px){
+    .compCon img{
+        width: 4rem;
+    }
+}

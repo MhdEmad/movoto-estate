@@ -1,0 +1,116 @@
+.conWra{
+    color: white;
+    position: relative;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.conCon{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.conCon div{
+    flex: 1;
+}
+
+.conLeft{
+    gap: 1rem;
+    margin: auto;
+}
+
+.conContact{
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.conContact .conRow{
+    gap: 2rem;
+}
+.conMode{
+    width: 22rem;
+    padding: 1rem;
+    border: 1px solid rgb(198, 153, 49);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.conMode .button{
+    width: 100%;
+    background: var(--lightBlue);
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 600;
+}
+.conMode >:nth-child(1){
+    width: 100%;
+    gap: 1.6rem;
+}
+.conMode .conDetail .primaryText{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.conMode:hover{
+    scale: 1.1;
+    box-shadow: var(--shadow);
+}
+.conMode .button:hover{
+    background: var(--blue-gradient);
+    color: white;
+    scale: 0.8;
+}
+.conIcon{
+    margin-right: 10px;
+}
+.conDetail{
+    margin-right: 50px;
+    gap: 0.5rem;
+}
+
+
+.conRight{
+    width: 100%;
+}
+.conImage{
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 5rem 0rem 0rem 5rem;
+    border: 4px solid rgb(198, 153, 49);
+    margin-left: auto;
+}
+.conImage img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px)
+{
+    .conCon{
+        flex-direction: column;
+    }
+    /* .conRight{
+        justify-content: center;
+    } */
+    .conImage{
+        width: 95%;
+        height: 25rem;
+        overflow: hidden;
+        border-radius: 5rem 5rem 5rem 5rem;
+        margin-left: auto;
+        border: 4px solid rgb(198, 153, 49);
+    }
+    .conContact{
+        width: 100%;
+    }
+    .conRow{
+        flex-direction: column;
+        width: 100%;
+    }
+    .conMode{
+        width: 100%;
+    }
+    .conLeft{
+        align-items: center;
+    }
+}
